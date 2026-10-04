@@ -8,8 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --wine:#722F37;
-    --wine-deep:#4A1F26;
+    --berry:#722F37;
+    --berry-deep:#4A1F26;
     --rust:#BC6C25;
     --rust-dark:#9A5419;
     --gold:#D4A24E;
@@ -46,7 +46,7 @@
   .hero-stat .label{font-size:11.5px;text-transform:uppercase;letter-spacing:0.1em;color:#F3E4E7;}
 
   /* ---------- Nav ---------- */
-  .daynav{position:sticky;top:0;z-index:40;background:var(--wine-deep);display:flex;gap:4px;padding:10px 6vw;overflow-x:auto;box-shadow:0 2px 12px rgba(0,0,0,0.15);-webkit-overflow-scrolling:touch;}
+  .daynav{position:sticky;top:0;z-index:40;background:var(--berry-deep);display:flex;gap:4px;padding:10px 6vw;overflow-x:auto;box-shadow:0 2px 12px rgba(0,0,0,0.15);-webkit-overflow-scrolling:touch;}
   .daynav a{flex:0 0 auto;color:#EAC9CE;text-decoration:none;font-size:13px;font-weight:700;padding:8px 15px;border-radius:999px;white-space:nowrap;transition:background .15s ease, color .15s ease;}
   .daynav a:hover{background:var(--rust);color:#fff;}
 
@@ -59,7 +59,7 @@
   .day-head{display:flex;align-items:center;gap:16px;margin-bottom:6px;}
   .day-num{font-family:'Fraunces',serif;font-size:3rem;font-weight:800;color:var(--rust);line-height:1;flex:0 0 auto;}
   .day-titles{min-width:0;}
-  .day-titles h2{font-size:1.4rem;color:var(--wine);line-height:1.15;}
+  .day-titles h2{font-size:1.4rem;color:var(--berry);line-height:1.15;}
   .day-titles .date{color:var(--muted);font-size:13.5px;font-weight:700;letter-spacing:0.02em;margin-top:2px;}
   .day-narrative{color:var(--ink);max-width:680px;margin:16px 0 32px;font-size:1rem;}
 
@@ -72,11 +72,11 @@
   .card.no-photo{grid-template-columns:1fr;}
   .card img{width:100%;height:100%;object-fit:cover;min-height:140px;}
   .card-body{padding:16px 20px;min-width:0;}
-  .card-body h3{font-size:1.1rem;color:var(--wine);margin-bottom:8px;line-height:1.25;}
+  .card-body h3{font-size:1.1rem;color:var(--berry);margin-bottom:8px;line-height:1.25;}
   .tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:9px;}
-  .tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;background:var(--rose-light);color:var(--wine);padding:4px 9px;border-radius:999px;white-space:nowrap;}
+  .tag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;background:var(--rose-light);color:var(--berry);padding:4px 9px;border-radius:999px;white-space:nowrap;}
   .tag.warm{background:#FBEBD2;color:#8A5A26;}
-  .tag.time{background:var(--wine);color:#fff;}
+  .tag.time{background:var(--berry);color:#fff;}
   .card-note{color:var(--muted);font-size:14px;margin-top:4px;}
 
   .card-note a, .card-body h3 a, .lodging a{
@@ -86,7 +86,7 @@
     text-underline-offset:2px;
     font-weight:700;
   }
-  .card-note a:hover, .card-body h3 a:hover, .lodging a:hover{color:var(--wine);}
+  .card-note a:hover, .card-body h3 a:hover, .lodging a:hover{color:var(--berry);}
   .linkrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;}
   .linkrow a{
     display:inline-flex;align-items:center;gap:5px;
@@ -101,7 +101,7 @@
   .connector{display:flex;align-items:center;gap:8px;margin:12px 0 12px -26px;color:var(--rust-dark);font-size:12.5px;font-weight:700;}
   .connector .icon{width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--rust),var(--rose));color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;flex:0 0 auto;}
 
-  .lodging{margin-top:6px;background:linear-gradient(120deg,var(--wine),var(--wine-deep));color:#fff;border-radius:var(--radius);padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;}
+  .lodging{margin-top:6px;background:linear-gradient(120deg,var(--berry),var(--berry-deep));color:#fff;border-radius:var(--radius);padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;}
   .lodging .label{font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);margin-bottom:4px;}
   .lodging .name{font-family:'Fraunces',serif;font-size:1.1rem;}
   .lodging .status{font-size:12px;font-weight:700;padding:6px 13px;border-radius:999px;white-space:nowrap;}
@@ -112,7 +112,7 @@
   /* ---------- Good to know ---------- */
   .gtk{background:var(--rose-light);border-radius:20px;padding:40px 6vw;margin:60px 0 0;}
   .gtk-inner{max-width:920px;margin:0 auto;}
-  .gtk h2{color:var(--wine);font-size:1.5rem;margin-bottom:20px;}
+  .gtk h2{color:var(--berry);font-size:1.5rem;margin-bottom:20px;}
   .gtk-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
   .gtk-item{background:#fff;border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);}
   .gtk-item h4{font-size:13px;color:var(--rust-dark);margin:0 0 6px;text-transform:uppercase;letter-spacing:0.04em;}
@@ -140,7 +140,7 @@
   <div class="hero-inner">
     <div class="eyebrow">&#127807; First Camping Trip &middot; Early October</div>
     <h1>Sonoma Camping Weekend</h1>
-    <p>Redwoods, one night under the stars, a Russian River wine stop, and an apple orchard on the way home. First time camping, made easy.</p>
+    <p>Redwoods, one night under the stars, mini golf, and an apple orchard on the way home. First time camping, made easy.</p>
     <div class="hero-stats">
       <div class="hero-stat"><div class="num">2</div><div class="label">Days</div></div>
       <div class="hero-stat"><div class="num">1</div><div class="label">Night Camping</div></div>
@@ -150,13 +150,13 @@
 </header>
 
 <nav class="daynav">
-  <a href="#day1">Day 1 &middot; Redwoods, Wine &amp; Camp</a>
+  <a href="#day1">Day 1 &middot; Redwoods &amp; Camp</a>
   <a href="#day2">Day 2 &middot; Hike, Apples &amp; Home</a>
   <a href="#gtk">Good to Know</a>
 </nav>
 
 <section class="intro">
-  <p>One night camping, kept intentionally simple since it's everyone's first time. Redwood hiking, one wine tasting (DD duty for Cali), campfire games, then a real hike, apple picking, and phenomenal croissants on the way home.</p>
+  <p>One night camping, kept intentionally simple since it's everyone's first time. Redwood hiking, mini golf, campfire games, then a real hike, apple picking, and phenomenal croissants on the way home.</p>
 </section>
 
 <main class="wrap">
@@ -166,11 +166,11 @@
     <div class="day-head">
       <div class="day-num">01</div>
       <div class="day-titles">
-        <h2>Redwoods, Wine &amp; Camp</h2>
+        <h2>Redwoods &amp; Camp</h2>
         <div class="date">Saturday</div>
       </div>
     </div>
-    <p class="day-narrative">A relaxed drive up, a real hike through ancient redwoods, one easy wine stop, then settling into camp for games and a campfire dinner.</p>
+    <p class="day-narrative">A relaxed drive up, a real hike through ancient redwoods, a round of mini golf, then settling into camp for games and a campfire dinner.</p>
 
     <div class="route">
 
@@ -221,7 +221,7 @@
         </div>
       </div>
 
-      <div class="connector"><span class="icon">&#127863;</span> Half a mile down the road</div>
+      <div class="connector"><span class="icon">&#9971;</span> Half a mile down the road</div>
 
       <div class="stop">
         <div class="card no-photo">
